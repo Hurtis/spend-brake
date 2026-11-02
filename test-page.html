@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test nakupnej brzdy</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 40px 20px;
+        background: #eef2f5;
+        color: #171717;
+        font-family: Arial, sans-serif;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      button,
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border: 1px solid #171717;
+        border-radius: 6px;
+        background: #ffffff;
+        color: #171717;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .log {
+        margin-top: 24px;
+        padding: 16px;
+        border-radius: 6px;
+        background: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Testovacia stranka</h1>
+      <p>Klikni na tlacidla a sleduj, ci sa najprv zobrazi brzda.</p>
+      <div class="actions">
+        <button id="cart-button">Pridať do košíka</button>
+        <button id="buy-button">Buy now</button>
+        <a id="link-button" href="#kosik">Do košíka</a>
+        <button id="plain-button">Kontaktovat obchod</button>
+      </div>
+    </main>
+  </body>
+</html>

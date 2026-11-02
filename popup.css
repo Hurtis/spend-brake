@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #f5f1e8;
+  color: #171717;
+  font-family: Arial, sans-serif;
+}
+
+.popup {
+  width: 320px;
+  padding: 16px;
+}
+
+.popup-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.popup-copy,
+.popup-note {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.toggle-label {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
